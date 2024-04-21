@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+@font-face {
+  font-family: 'font';
+  src: url('./font.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'font', sans-serif;
+}
+
+.pb-30{
+  padding-bottom: 90px;
+}
+
+.top-230{
+  top: 230px;
+}
+
+.mt-18{
+  margin-top: 40px;
+}
