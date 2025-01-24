@@ -16,7 +16,7 @@ import VideoPlayer from './vid';
     }
 
     try {
-      const response = await fetch('https://backend-llw1.onrender.com', {
+      const response = await fetch('https://backend-llw1.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
